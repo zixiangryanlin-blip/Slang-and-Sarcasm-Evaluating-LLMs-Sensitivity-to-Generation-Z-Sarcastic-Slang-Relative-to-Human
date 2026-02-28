@@ -25,7 +25,7 @@ except ValueError:
    drive.mount('/content/drive', force_remount=True)
 
 
-BASE_PATH = "/content/drive/MyDrive/AP/"
+BASE_PATH = "" # Drive access removed
 INPUT_CSV = os.path.join(BASE_PATH, "Slangcastic_200.csv")
 df_input = pd.read_csv(INPUT_CSV)
 sentences = df_input["Sentence"].astype(str).tolist()
