@@ -1,6 +1,6 @@
 #This file of code is executed in Google Colab
 
-pip install -q -U google-genai
+!pip install -q -U google-genai
 
 import google.generativeai as genai
 
@@ -10,7 +10,7 @@ GOOGLE_API_KEY = userdata.get('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
 from google import genai
-client = genai.Client(api_key= ) # API key removed
+client = genai.Client(api_key=GOOGLE_API_KEY) # API key removed
 
 import pandas as pd
 import re
