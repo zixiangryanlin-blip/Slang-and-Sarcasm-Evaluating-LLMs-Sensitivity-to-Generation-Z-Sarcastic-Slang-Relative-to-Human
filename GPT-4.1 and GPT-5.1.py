@@ -11,7 +11,7 @@ except ValueError:
    drive.mount('/content/drive', force_remount=True)
 
 BASE_PATH = "" # Drive access removed
-INPUT_CSV = os.path.join(BASE_PATH, "AP_Research_Slangcastic100.csv")
+INPUT_CSV = os.path.join(BASE_PATH, "Slangcastic_200.csv")
 df_input = pd.read_csv(INPUT_CSV)
 sentences = df_input["Sentence"].astype(str).tolist()
 print(f"Loaded {len(sentences)} sentences from CSV.")
@@ -68,5 +68,5 @@ def save_dataframe_csv(df, filenameSTR):
    df.to_csv(filepath, index=False, encoding="utf-8-sig")
    print(f"DataFrame saved to: {filepath}")
 
-save_raw_output_csv_lines(raw_output, "AP_Research_4.1_100")
-save_dataframe_csv(df, "AP_Research_4.1_100")
+save_raw_output_csv_lines(raw_output, "Slangcastic_GPT-4.1")
+save_dataframe_csv(df, "Slangcastic_GPT-4.1")
