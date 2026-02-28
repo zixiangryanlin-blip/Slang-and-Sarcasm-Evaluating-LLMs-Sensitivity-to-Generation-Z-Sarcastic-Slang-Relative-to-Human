@@ -1,3 +1,5 @@
+#This file of code is executed in Google Colab
+
 from openai import OpenAI
 import pandas as pd
 import re
