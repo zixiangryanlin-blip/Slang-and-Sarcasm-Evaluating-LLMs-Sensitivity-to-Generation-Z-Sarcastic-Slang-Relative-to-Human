@@ -25,10 +25,8 @@ data = []
 
 for sentence in sentences:
    prompt = f"""
-   Classify the sarcasm polarity of the tweet as Sarcastic or Not Sarcastic.
-   Assign a numerical value between -5 (disgust/extreme discontent) and 5 (obvious joy/extreme pleasure).
+   Prompt: Classify the sarcasm polarity of the tweet as Sarcastic or Not Sarcastic. Assign a numerical value between -5 (conveying disgust or extreme discontent) and 5 (conveying obvious joy and approval or extreme pleasure) to represent the sentiment intensity expressed in the tweet.
    Tweet: "{sentence}"
-   Intensity Score:
    """
 
    response = client.chat.completions.create(
