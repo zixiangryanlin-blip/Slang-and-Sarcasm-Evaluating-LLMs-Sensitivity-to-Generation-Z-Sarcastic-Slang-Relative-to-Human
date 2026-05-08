@@ -2,9 +2,9 @@
 This repository serves as a complete archive of the data, code, and methodology used to investigate how well Large Language Models (LLMs) detect and interpret Generation Z sarcastic slang compared to human baselines in sarcasm detection and sentiment analysis tasks.
 
 What's Included in This Repository:
-1. **Code folder:** Python scripts used to interface with the LLMs
-2. **Slangcastic Dataset:** 200 sarcastic and non-sarcastic tweets
-3. **Slangcastic Dataset and Annotation:** 200 sarcastic and non-sarcastic tweets with LLMs' side-by-side outputs and human annotations
+1. **Code folder:** Python scripts used to interface with the LLMs;
+2. **Slangcastic Dataset:** 200 sarcastic and non-sarcastic tweets;
+3. **Slangcastic Dataset and Annotation:** 200 sarcastic and non-sarcastic tweets with LLMs' side-by-side outputs and human annotations;
 4. **Human Annotation Questionnaire folder:**  Online Google Form used to gather the human baseline data. This includes the evaluation rubric and the samplers used to ensure consistent grading among participants, and notes that the questionnaire is separated into two PDFs. Please download the PDF if the preview is not available.
 
 **Abstract:**
